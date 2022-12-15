@@ -12,17 +12,22 @@ class MyProjects extends React.Component {
                 <ProjectCard
                     imgsrc={cryptologo}
                     title="CryptoFlow"
-                    desc="CryptoFlow facilitates the processes of buying, selling and auctioning numerous products using decentralized networks and blockchain cryptocurrency, making online transactions for our users more transparent and secure."
+                    desc="CryptoFlow facilitates the processes of buying, selling and auctioning numerous products using decentralized networks and blockchain cryptocurrency.
+                    It aims at making online transactions for our users more transparent and secure while reducing compliance costs and speeding up data transfer processing.
+                    The application is developed using React for front-end and Solidity for back-end on the test Ethereum network."
                 />
                 <ProjectCard
                     imgsrc={micrologo}
                     title="Automated Motion-Detecting Solar-Tracking Street Light System"
-                    desc="A smart system that switches on and off depending on current weather conditions, adjusts itself to amplify solar energy generation as well as uses motion detection to dim lights when no incoming traffic or other mobile objects are detected."
+                    desc="A smart system that switches on and off depending on current weather conditions, adjusts itself to amplify solar energy generation as well as uses motion detection to dim lights when no incoming traffic or other mobile objects are detected.
+                    It is a fully operational hardware project made using an Arduino UNO microcontroller, which aims to reduce power consumption while maximising solar energy generation."
                 />
                 <ProjectCard
                     imgsrc={quizylogo}
                     title="Quizy"
-                    desc="Quizy provides an online quiz system where students and teachers can attempt and create quizzes respectively. The quiz portal shall be auto-proctored via facial recognition and eye tracking AI models."
+                    desc="Quizy provides an online quiz system where students and teachers can attempt and create quizzes respectively. The quiz portal shall be auto-proctored via facial recognition and eye tracking AI models.
+                    The project is developed using HTML, CSS, JavaScript for client-side programming, while the server-side programming is coded using MySQL and PHP. The AI models include a TensorFlow COCO model, which identifies objects captured by the camera,
+                    and a Web Gazer model, used to track eye movements of a student across the computer screen to minimise malpractices during online quizzes."
                 />
             </div>
         );

@@ -12,7 +12,7 @@ const ProjectCard = props => {
           </div>
           <div className="col-sm-9">
             <Card.Body>
-              <Card.Title className="project-title" style={{fontFamily: 'quicksand'}}>{props.title}</Card.Title>
+              <Card.Title className="project-title" style={{fontFamily: 'quicksand', fontSize: 'x-large'}}>{props.title}</Card.Title>
               <Card.Text className="project-desc" style={{fontFamily: 'quicksand'}}>
                   {props.desc}
               </Card.Text>
