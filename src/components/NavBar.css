@@ -1,0 +1,19 @@
+.navbar {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none !important; 
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.bg-img {
+    width: 100%;
+    margin-top: -15%;
+}

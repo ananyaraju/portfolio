@@ -1,0 +1,14 @@
+.about {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+}
+
+.about-img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    float: left;
+    padding-top: 10px;
+}
+
