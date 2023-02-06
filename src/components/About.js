@@ -15,9 +15,9 @@ class About extends React.Component {
                 </div>
                 <div className="col-sm-8" style={{fontFamily: 'quicksand'}}>
                     <p style={{fontSize: 'x-large'}}>Hey, there! I'm M. Ananya Raju.</p>
-                    <p style={{fontSize: 'large'}}>A student at <a href="https://vit.ac.in/" rel="noreferrer" target="_blank" style={{color: 'white'}}>VIT, Vellore</a> and an aspiring front-end developer.</p>
+                    <p style={{fontSize: 'large'}}>A student at <a href="https://vit.ac.in/" rel="noreferrer" target="_blank" style={{color: 'white'}}>VIT, Vellore</a> and front-end developer.</p>
                     <p>I'm a 20 year old Computer Science Engineering student based in Vellore, Tamil Nadu, India, and eager to learn and grow in various web development fields.<br/>
-                       I am comfortable in working with JavaScript, HTML, CSS/Bootstrap to create and deliver responsive and user friendly web applications.<br/>
+                       I am comfortable in working with ReactJS, Vanilla JavaScript, HTML, CSS/Bootstrap to create and deliver responsive and user friendly web applications.<br/>
                        Alternatively, I am also fluent in back-end programming using PHP and MySQL.</p>
                 </div>
             </Row>
