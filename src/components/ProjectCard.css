@@ -5,6 +5,11 @@
     background-color: #512589;
     color: white;
     padding: 25px;
+    transition: all .4s ease-in-out; 
+}
+
+#project-card:hover { 
+    transform: scale(1.05); 
 }
 
 .card-img {
@@ -16,3 +21,11 @@
     font-weight: 600 !important;
 }
 
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+a:hover, a:active, a:visited {
+    color: white !important;
+}

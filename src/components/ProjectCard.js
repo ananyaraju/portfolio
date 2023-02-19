@@ -6,6 +6,7 @@ const ProjectCard = props => {
   return (
     <Card id="project-card">
       <Container>
+      <a href={props.link} target="_blank" rel="noreferrer">
         <Row>
           <div className="col-sm-3">
             <Card.Img className="rounded card-img" variant="top" src={props.imgsrc} alt=""/>
@@ -19,6 +20,7 @@ const ProjectCard = props => {
             </Card.Body>
           </div>
         </Row>
+        </a>
       </Container>
     </Card>
   )

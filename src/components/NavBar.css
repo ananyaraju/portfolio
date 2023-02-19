@@ -17,3 +17,7 @@
     width: 100%;
     margin-top: -15%;
 }
+
+#hoverEffect:hover {
+    text-decoration: underline !important;
+}
