@@ -1,0 +1,13 @@
+.footer-body {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 100px;
+}
+
+.contact-div {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: space-around;
+}

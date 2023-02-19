@@ -13,6 +13,10 @@ const NavBar = () => {
     window.scrollTo({top: 1150, left: 0, behaviour: "smooth"});
   }
 
+  const goToContact = () => {
+    window.scrollTo({top: 2500, left: 0, behaviour: "smooth"});
+  }
+
   return (
     <>
       <div className="background-img"><img src={background} alt="" className="bg-img"/></div>
@@ -26,7 +30,7 @@ const NavBar = () => {
                 <Nav style={{marginLeft: 'auto', fontFamily: 'quicksand'}}>
                   <Nav.Link id="hoverEffect" onClick={goToAbout} style={{color: 'white'}}>About</Nav.Link>
                   <Nav.Link id="hoverEffect" onClick={goToProjects} style={{color: 'white'}}>Projects</Nav.Link>
-                  <Nav.Link id="hoverEffect" href="#" style={{color: 'white'}}>Contact</Nav.Link>
+                  <Nav.Link id="hoverEffect" onClick={goToContact} style={{color: 'white'}}>Contact</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
           </Container>
